@@ -1,4 +1,4 @@
-name: Test Build - by yzn
+name: Test Build branch by yzn
 
 on:
   workflow_dispatch:
@@ -6,7 +6,7 @@ on:
       build_branch:
         description: "Choose the branch to build from (defaults to the branch you selected in the dropdown)"
         required: false
-        default: ""
+        default: "":
 
 jobs:
   build:
